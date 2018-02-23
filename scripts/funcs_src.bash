@@ -8,6 +8,8 @@ err(){
  exit 1
 }
 
+GROUPROOTCondor="/Volumes/Zeus/CogDTI/Group_Analysis_Condor/"
+
 SUBJROOT="/Volumes/Zeus/CogDTI/subjs/"
 [ ! -d "$SUBJROOT" ] && err "DNE: '$SUBJROOT'"
 

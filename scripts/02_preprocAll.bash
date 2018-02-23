@@ -13,3 +13,4 @@ ls ../subjs/|xargs -n1 basename | sed 's/_/ /g' | while read luna vdate; do
  waitForJobs
 done
 
+wait
